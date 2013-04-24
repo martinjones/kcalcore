@@ -23,6 +23,7 @@ BuildRequires:  pkgconfig(Qt5Gui)
 BuildRequires:  pkgconfig(Qt5DBus)
 BuildRequires:  pkgconfig(dbus-1)
 BuildRequires:  pkgconfig(timed-qt5)
+BuildRequires:  pkgconfig(libical)
 
 %description
 Port of KDE kcalcore calendar library
@@ -48,7 +49,7 @@ applications using kcalcore
 # >> build pre
 # << build pre
 
-%qmake 
+%qmake5 
 
 make %{?jobs:-j%jobs}
 
