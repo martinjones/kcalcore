@@ -16,7 +16,7 @@ PkgConfigBR:
     - dbus-1
     - timed-qt5
 Configure: none
-Builder: qmake
+Builder: qmake5
 Files:
 - "%{_libdir}/libkcalcoren-qt5.so.*"
 SubPackages:

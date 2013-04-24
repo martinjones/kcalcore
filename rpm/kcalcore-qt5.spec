@@ -48,7 +48,7 @@ applications using kcalcore
 # >> build pre
 # << build pre
 
-%qmake 
+%qmake5 
 
 make %{?jobs:-j%jobs}
 
